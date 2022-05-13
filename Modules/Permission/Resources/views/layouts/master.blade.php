@@ -7,13 +7,13 @@
         <title>Module Permission</title>
 
        {{-- Laravel Mix - CSS File --}}
-       {{-- <link rel="stylesheet" href="{{ mix('css/permission.css') }}"> --}}
+       <link rel="stylesheet" href="{{ mix('css/permission.css') }}">
 
     </head>
     <body>
         @yield('content')
 
         {{-- Laravel Mix - JS File --}}
-        {{-- <script src="{{ mix('js/permission.js') }}"></script> --}}
+        <script src="{{ mix('js/permission.js') }}"></script>
     </body>
 </html>
